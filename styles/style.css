@@ -316,6 +316,17 @@ table {
   border-collapse: collapse;
 }
 
+.links-table {
+  color: white;
+  text-decoration: underline;
+  padding: 5px;
+}
+
+.links-table:hover {
+  background-color: #F7E02D;
+  color: black;
+}
+
 .mycell {
   padding: 25px 25px;
   background-color: rgba(97, 97, 97, 0.541);
