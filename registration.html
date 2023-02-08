@@ -50,70 +50,99 @@
       <article>
         <div class="col-mycontent">
           <form action="./show_data.html" method="get">
-            <fieldset>
-              <label for="first_name">Player's First Name:</label>
-              <input type="text" name="first_name" id="first_name" placeholder="Thomas">
-              <label for="last_name">Last Name:</label>
-              <input type="text" name="last_name" id="last_name" placeholder="Smith">
-              <label for="address">Street Address:</label>
-              <input type="text" name="address" id="address">
-              <label for="city">City:</label>
-              <input type="text" name="city" id="city">
-              <label for="zip_code">Zip Code:</label>
-              <input type="text" name="zip_code" id="zip_code">
-              <label for="birthday">Birth Date (mm/dd/yyyy):</label>
-              <input type="date" name="birthday" id="birthday">
-              <p>Gender:</p>
-              <label for="female">Female</label>
-              <input type="radio" name="gender" id="female" value="female">
-              <label for="male">Male</label>
-              <input type="radio" name="gender" id="male" value="male">
-              <p>Grade:</p>
-              <label for="pre-school">Pre-School</label>
-              <input type="radio" name="grade" id="pre-school" value="pre-school">
-              <label for="1st">1st</label>
-              <input type="radio" name="grade" id="1st" value="1st">
-              <label for="2nd">2nd</label>
-              <input type="radio" name="grade" id="2nd" value="2nd">
-              <label for="3rd">3rd</label>
-              <input type="radio" name="grade" id="3rd" value="3rd">
-              <label for="4th">4th</label>
-              <input type="radio" name="grade" id="4th" value="4th">
-              <label for="5th">5th</label>
-              <input type="radio" name="grade" id="5th" value="5th">
+            <fieldset class="mypadding" >
+              <div>
+                <div>
+                  <label for="first_name">Player's First Name:</label>
+                  <input type="text" name="first_name" id="first_name" placeholder="Thomas">
+                </div>
+                <div>
+                  <label for="last_name">Last Name:</label>
+                  <input type="text" name="last_name" id="last_name" placeholder="Smith">
+                </div>
+              </div>
+              <div>
+                <label for="address">Street Address:</label>
+                <input type="text" name="address" id="address">
+              </div>
+              <div>
+                <div>
+                  <label for="city">City:</label>
+                  <input type="text" name="city" id="city">
+                </div>
+                <div>
+                  <label for="zip_code">Zip Code:</label>
+                  <input type="text" name="zip_code" id="zip_code">
+                </div>
+              </div>
+              <div>
+                <div>
+                  <label for="birthday">Birth Date (mm/dd/yyyy):</label>
+                  <input type="date" name="birthday" id="birthday">
+                </div>
+                <div>
+                  <p>Gender:</p>
+                  <label for="female">Female</label>
+                  <input type="radio" name="gender" id="female" value="female">
+                  <label for="male">Male</label>
+                  <input type="radio" name="gender" id="male" value="male">
+                </div>
+              </div>
+              <div>
+                <p>Grade:</p>
+                <div>
+                  <label for="pre-school">Pre-School</label>
+                  <input type="radio" name="grade" id="pre-school" value="pre-school">
+                  <label for="1st">1st</label>
+                  <input type="radio" name="grade" id="1st" value="1st">
+                  <label for="2nd">2nd</label>
+                  <input type="radio" name="grade" id="2nd" value="2nd">
+                  <label for="3rd">3rd</label>
+                  <input type="radio" name="grade" id="3rd" value="3rd">
+                  <label for="4th">4th</label>
+                  <input type="radio" name="grade" id="4th" value="4th">
+                  <label for="5th">5th</label>
+                  <input type="radio" name="grade" id="5th" value="5th">
+                </div>
+              </div>
 
             </fieldset>
-            <fieldset>
+            <fieldset class="mypadding">
               <h3>Which elementary school do you live near?</h3>
               <h4>Closest School</h4>
-              <label for="AJ-Katrzenmaier">AJ Katrzenmaier</label>
-              <input type="checkbox" name="closest-school" id="AJ-Katrzenmaier">
-              <label for="Greenbay">Greenbay</label>
-              <input type="checkbox" name="closest-school" id="Greenbay">
-              <label for="Howard-A-Yeager">Howard A Yeager</label>
-              <input type="checkbox" name="closest-school" id="Howard-A-Yeager">
-              <label for="Marjorie-P-Hart">Marjorie P Hart</label>
-              <input type="checkbox" name="closest-school" id="Marjorie-P-Hart">
-              <label for="North-Elementary">North Elementary</label>
-              <input type="checkbox" name="closest-school" id="North-Elementary">
-              <label for="South-Elementary">South Elementary</label>
-              <input type="checkbox" name="closest-school" id="South-Elementary">
+              <div>
+                <label for="AJ-Katrzenmaier">AJ Katrzenmaier</label>
+                <input type="checkbox" name="closest-school" id="AJ-Katrzenmaier">
+                <label for="Greenbay">Greenbay</label>
+                <input type="checkbox" name="closest-school" id="Greenbay">
+                <label for="Howard-A-Yeager">Howard A Yeager</label>
+                <input type="checkbox" name="closest-school" id="Howard-A-Yeager">
+                <label for="Marjorie-P-Hart">Marjorie P Hart</label>
+                <input type="checkbox" name="closest-school" id="Marjorie-P-Hart">
+                <label for="North-Elementary">North Elementary</label>
+                <input type="checkbox" name="closest-school" id="North-Elementary">
+                <label for="South-Elementary">South Elementary</label>
+                <input type="checkbox" name="closest-school" id="South-Elementary">
+              </div>
             </fieldset>
 
-            <fieldset>
+            <fieldset class="mypadding" >
               <h3>What position(s) do yo normally play? (check all that apply)</h3>
-              <label for="forward">forward</label>
-              <input type="checkbox" name="closest-school" id="forward">
-              <label for="defense">Defense</label>
-              <input type="checkbox" name="closest-school" id="defense">
-              <label for="midfield">Midfield</label>
-              <input type="checkbox" name="closest-school" id="midfield">
-              <label for="goalkeeper">Goalkeeper</label>
-              <input type="checkbox" name="closest-school" id="goalkeeper">
+              <div>
+                <label for="forward">forward</label>
+                <input type="checkbox" name="closest-school" id="forward">
+                <label for="defense">Defense</label>
+                <input type="checkbox" name="closest-school" id="defense">
+                <label for="midfield">Midfield</label>
+                <input type="checkbox" name="closest-school" id="midfield">
+                <label for="goalkeeper">Goalkeeper</label>
+                <input type="checkbox" name="closest-school" id="goalkeeper">
+              </div>
             </fieldset>
-            <fieldset>
+            <fieldset class="mypadding" >
               <h3>Uniform Size:</h3>
-              <label for="YouthSmall">Youth Small</label>
+              <div>
+                <label for="YouthSmall">Youth Small</label>
               <input type="radio" name="uniform-size" id="YouthSmall" value="Youth Small">
               <label for="YouthMedium">Youth Medium</label>
               <input type="radio" name="uniform-size" id="YouthMedium" value="Youth Medium">
@@ -127,8 +156,27 @@
               <input type="radio" name="uniform-size" id="Large" value="Large">
               <label for="ExtraLarge">Extra Large</label>
               <input type="radio" name="uniform-size" id="ExtraLarge" value="Extra Large">
+              </div>
             </fieldset>
-            
+            <fieldset class="mypadding" >
+              <h4>Permission to Play</h4>
+              <p>
+                I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the rules of the Mighty Ducks Hockey League (MDHL). In recognizing the possibility of physical injury associated with hockey and in consideration for the "League" accepting the registrant for its hockey programs and activities, I hereby release, discharge, and/or otherwise indemnify MDHL, their employees and associated personnel and volunteers, including the facilities used for practices and games, against any claim by or on behalf of the registrant as a result of the registrant's participation in the programand/orbeing transported to or from MDHL sponsored activities, which transportation
+              </p>
+              <p class="last-p">
+                By signing below, I herebyagree and authorizethe above. In addition, by signing below, lalso acknowledge that have read the cancellation policy and agree to its terms.
+              </p>
+              <div>
+                <label for="sign">Parent/GuardianSignature:</label>
+                <input type="text" name="signature-parent" id="sign">
+              </div>
+              <div>
+                <label for="signature-date">Date:</label>
+                <input class="last-p" type="text" name="signature-date" id="signature-date">
+              </div>
+              <input type="submit" value="send">
+            </fieldset>
+
           </form>
         </div>
       </article>
