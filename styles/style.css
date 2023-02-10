@@ -155,7 +155,7 @@ body {
   font-size: 17px;  
 }
 
-.btn-nav:hover {
+.btn-nav:hover{
   background-color: #F7E02D;
   color: black;
   font-size: 20px;
@@ -343,6 +343,16 @@ table {
   flex-direction: column;
 }
 
+/*estilos para formulario*/
+.form-two-col{
+  display: flex;
+  text-align: center;
+}
+
+.form-width50 {
+  width: 50%;
+  display: inline-block;
+}
 footer {
   clear: both;
   margin-bottom: 0;
